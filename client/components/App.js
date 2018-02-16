@@ -6,8 +6,8 @@ import Add from './Add';
 import Update from './Update';
 import Delete from './Delete';
 import { Tab, Tabs } from 'react-bootstrap';
-import YearTabsRouter from './tabs/yearTabsRouter';
-import MonthTabs from './tabs/monthTabs';
+import YearTabsRouter from './tabs/yearTabRouter';
+import MonthTabs from './tabs/monthTabsRouter';
 export default class App extends React.Component {
 constructor() {
     super();
@@ -71,6 +71,3 @@ render() {
     );
   }
 }
-
- 
- 
