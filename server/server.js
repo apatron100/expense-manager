@@ -10,7 +10,7 @@ app.set('views', path.join(__dirname, '../dist'));
 app.use(express.static(path.join(__dirname, '../dist')));
 app.use(bodyParser.json({limit: '50mb'}));
 app.use(bodyParser.urlencoded({limit: '50mb', extended: false}));
-mongoose.connect('mongodb://apatron100:rosamelia1@ds001.mlab.com:001/db101');
+mongoose.connect('mongodb://apatron100:rosamelia1@ds235708.mlab.com:35708/expenses');
 app.use('/', router);
 
 module.exports=app;
